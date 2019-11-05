@@ -5,7 +5,11 @@ let MODAL_HEIGHT = 270;
 let STAT_HEIGHT = 150;
 let STAT_COL_WIDTH = 40;
 let DISTANCE = 50;
+<<<<<<< HEAD
 let MY_COLOR = 'rgba(255,0,0,1)';
+=======
+let MY_COLOR = 'rgba(255,0,0,.2)';
+>>>>>>> changed-color
 
 window.renderStatistics = function(ctx, names, times) {
     var max = Math.max.apply(null, times);
